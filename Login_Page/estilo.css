@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(90deg, yellow, #8228e9f8);
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.89);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 62px;
+    border-radius: 15px;
+    color: white;
+}
+
+input{
+    padding: 15px; /* PADDING = DISTÂNCIA DO CONTEÚDO DE UM ELEMENTO AS SUAS BORDAS*/
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 9px;
+    color: white;
+    font-size: 14px;
+}
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
